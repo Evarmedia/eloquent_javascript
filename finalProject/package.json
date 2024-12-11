@@ -1,20 +1,17 @@
 {
-  "name": "sendeth-dapp",
+  "name": "eth-dapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Ethereum DApp with MetaMask integration",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "ethers": "^6.13.4"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1",
-    "parcel-bundler": "^1.12.5"
+    "vite": "^5.4.8"
   }
 }
